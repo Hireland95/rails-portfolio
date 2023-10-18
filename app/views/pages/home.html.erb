@@ -9,6 +9,7 @@
     </div>
   </div>
 </div>
+
 <div class="Container">
   <div class="description">
     <h1>About me</h1>
@@ -18,12 +19,19 @@
     </p>
   </div>
   <h1>Main Projects ⭐️ </h1>
-  <div class="Project_container">
-    <div class="video">
-      <%= video_tag "FPLBOT.mp4", :size => "400x400",
-      class: "home_video"%>
-    </div>
-    <div class="Project_description">
-    </div>
-  </div>
+    <%= link_to "https://www.fplbot.co.uk", target: '_blank' do %>
+    <div class="Project_container">
+      <div class="name">
+        <h1 id="project_name"> FPLBOT </h1>
+      </div>
+      <div class="project_info">
+        <div class="video">
+          <%= video_tag "FPLBOT.mp4", size: "700x400", autoplay: true, muted: 'muted',
+          loop: true, class: "home_video"%>
+        </div>
+        <div class="Project_description">
+        </div>
+      </div>
+      </div>
+    <% end %>
 </div>
