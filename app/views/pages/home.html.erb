@@ -60,4 +60,31 @@
         </div>
       </div>
     </div>
+    <%# BOATEL %>
+    <div class="Boatel_container">
+      <div class="project_name">
+        <%= link_to "https://boatel-db43a638cc60.herokuapp.com/", target: '_blank' do %>
+           <h1 class="link"> BOATEL </h1>
+         <% end  %>
+      </div>
+      <div class="project_description">
+        <div class="card">
+          <h1>What if I don't play FPL?</h1>
+          <p>You can view the app below 😎</p>
+        </div>
+        <div class="card">
+          <h1>How was this built?</h1>
+          <p>FPLBOT is built using Ruby on Rails. The app automatically pulls data
+              from 3 Fantasy Premier League API's every day and puts through our model
+              so that user's have up to date insights throughout the 23/24 season!
+          </p>
+        </div>
+      </div>
+      <div class="project_info">
+        <div class="video">
+          <%= video_tag "BOATEL.mp4", size: "1400x800", autoplay: true, muted: 'muted',
+          loop: true, class: "home_video"%>
+        </div>
+      </div>
+    </div>
 </div>
