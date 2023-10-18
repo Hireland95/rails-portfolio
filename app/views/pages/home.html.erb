@@ -19,19 +19,45 @@
     </p>
   </div>
   <h1>Main Projects ⭐️ </h1>
-    <%= link_to "https://www.fplbot.co.uk", target: '_blank' do %>
     <div class="Project_container">
-      <div class="name">
-        <h1 id="project_name"> FPLBOT </h1>
+      <div class="project_name">
+        <%= link_to "https://www.fplbot.co.uk", target: '_blank' do %>
+           <h1 class="link"> FPLBOT </h1>
+         <% end  %>
+      </div>
+      <div class="project_description">
+          <div class="card">
+            <h1>What is it?</h1>
+            <p>A Premier League Fantasy Football insights tool to help
+                players make better informed transfers and keep on track of performace
+                versus their friends!
+              </p>
+          </div>
+          <div class="card">
+            <h1>How do I use?</h1>
+            <p>If you currently play FPL you can get your id from the offical website
+              and then create an account on FPLBOT to get all your insights!
+            </p>
+          </div>
+      </div>
+      <div class="project_description">
+        <div class="card">
+          <h1>What if I don't play FPL?</h1>
+          <p>You can view the app below 😎</p>
+        </div>
+        <div class="card">
+          <h1>How was this built?</h1>
+          <p>FPLBOT is built using Ruby on Rails. The app automatically pulls data
+              from 3 Fantasy Premier League API's every day and puts through our model
+              so that user's have up to date insights throughout the 23/24 season!
+          </p>
+        </div>
       </div>
       <div class="project_info">
         <div class="video">
-          <%= video_tag "FPLBOT.mp4", size: "700x400", autoplay: true, muted: 'muted',
+          <%= video_tag "FPLBOT.mp4", size: "1400x800", autoplay: true, muted: 'muted',
           loop: true, class: "home_video"%>
         </div>
-        <div class="Project_description">
-        </div>
       </div>
-      </div>
-    <% end %>
+    </div>
 </div>
