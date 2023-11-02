@@ -1,20 +1,20 @@
 body {
-  background-color: black;
+  background-color: white;
 }
 
 h1 {
-  color: white;
+  color: grey;
   font-family: 'Courier New', Courier, monospace;
 }
 
 h2 {
   font-family: 'Courier New', Courier, monospace;
-  color: white;
+  color: grey;
 }
 
 p {
   font-family: 'Courier New', Courier, monospace;
-  color: white;
+  color: grey;
 }
 
 .info {
